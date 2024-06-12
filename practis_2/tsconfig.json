@@ -1,0 +1,20 @@
+  {
+    "compilerOptions": {
+      "module": "commonjs",  // or "esnext", "amd", "umd", depending on your environment
+      "target": "es6",  // or "es5", "esnext"
+      "outDir": "./dist",  // specify an output directory
+      "rootDir": "./module1",  // specify the root directory
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
+  
